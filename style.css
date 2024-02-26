@@ -1,0 +1,55 @@
+img {
+  width: 100px;
+  border-radius: 50px;
+  float: left;
+}
+.join_button
+{
+  background-color: white;
+  border-radius: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-width: 1px;
+  border-color: blue;
+  font-weight: bolder;
+  color:blue;
+  border-style:solid;
+  height: 36px;
+  width: 62px;
+  cursor:pointer;
+  
+
+}
+.tweet_button
+{
+  background-color: rgba(0, 0, 241, 0.783);
+  border-radius: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-width: 1px;
+  border:none;
+  color:white;
+  font-weight: bold;
+  border-style:solid;
+  height: 36px;
+  width: 62px;
+  cursor:pointer;
+  transition: background-color 0.15s,color 0.15s,opacity 0.15s;
+
+}
+.tweet_button:hover{
+  background-color: white;
+  color:blue;
+}
+.join_button:hover{
+  background-color: blue;
+  color:white;
+  opacity:0.7;
+  transition: shadow 5s;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.tweet_button:active{
+  background-color: yellow;
+  color:red;
+  opacity: 0.7;
+}
